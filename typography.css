@@ -1,0 +1,95 @@
+/* Escala de lectura común para portada, navegación y fichas. */
+body { font-size: 18px; line-height: 1.65; }
+.site-header { gap: 32px; }
+.site-header .brand { width: 420px; flex: 0 0 420px; max-width: 100%; }
+.site-header .brand img { width: 100%; height: auto; }
+.primary-nav { gap: clamp(20px, 2.2vw, 36px); }
+.primary-nav a { font-size: clamp(22px, 1.8vw, 26px); font-weight: 600; line-height: 1.35; }
+.hero-copy h1 { font-size: clamp(52px, 5.2vw, 76px); line-height: 1.08; }
+.hero-copy .lead { font-size: 20px; max-width: 520px; line-height: 1.65; }
+.hero { padding-top: 34px; }
+.page-title-row h1 { font-size: clamp(44px, 5vw, 68px); }
+.eyebrow, .breadcrumb, .anniversary-bar { font-size: 14px; }
+.eyebrow { letter-spacing: .09em; }
+.button, .text-link, .hero .button, .hero .text-link, .journal-card .text-link,
+.product-card .text-link { font-size: 17px; line-height: 1.4; }
+.subnav a, .side-nav a, .nested-nav a { font-size: 17px; line-height: 1.45; min-height: 46px; }
+.subnav { gap: 8px; }
+.page-title-row > p, .detail-intro > p, .proposal-copy > p,
+.split-feature p, .product-detail .description, .experience-card p,
+.map-copy p, .participant-panel > p, .book-info p, .contact-card p,
+.principle p, .timeline-item p, .section-heading > p, .community-copy p { font-size: 18px; line-height: 1.65; }
+.section-heading > p { max-width: 440px; }
+.explore-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.explore-card { min-width: 0; padding-inline: 18px; }
+.explore-card h3 { font-size: clamp(21px, 1.7vw, 25px); line-height: 1.25; }
+.explore-card p, .journal-card p, .product-card p, .document p,
+.feature-aside p, .media-item p { font-size: 16px; line-height: 1.6; }
+.small, .proposal-copy .small, .notice, .tags span, .strip-item span,
+.journal-card small, .media-item small, .document small, .photo-credit,
+.photo-label, .reading-photo figcaption, .video-caption, .result-count,
+.footer-bottom, .photo-archive .person p { font-size: 14px; line-height: 1.5; }
+.people-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.person, .person > div, .participant-panel, .advice-layout > div { min-width: 0; }
+.person h4, .photo-archive .person h4 { font-size: 17px; overflow-wrap: anywhere; }
+.person p { font-size: 15px; }
+.person small { font-size: 13px; }
+.filter-button, .footer-links, .footer-top p, .archive-details summary,
+.archive-details a { font-size: 16px; }
+.intro-strip > p { font-size: 18px; }
+.strip-item { flex-wrap: wrap; }
+.photo-archive .people-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (min-width: 901px) and (max-width: 1200px) {
+  .site-header { flex-wrap: wrap; justify-content: center; gap: 12px; }
+  .primary-nav { width: 100%; justify-content: space-between; gap: 16px; }
+  .primary-nav a { font-size: 22px; }
+  .explore-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .explore-card { border-bottom: 1px solid var(--line); }
+  .explore-card h3 { font-size: 23px; }
+  .people-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 900px) {
+  .primary-nav a { font-size: 21px; white-space: normal; }
+  .menu-toggle { font-size: 17px; }
+  .hero-copy h1 { font-size: clamp(44px, 6.5vw, 60px); }
+  .hero-copy .lead { font-size: 18px; }
+  .journal-grid { grid-template-columns: 1fr; }
+  .journal-card { display: block; }
+  .journal-card .media-cover { width: 100%; height: 220px; margin-bottom: 20px; }
+}
+@media (max-width: 560px) {
+  .primary-nav.open { grid-template-columns: 1fr; }
+  .hero-copy h1 { font-size: clamp(42px, 11.5vw, 60px); }
+  .subnav a, .side-nav a, .nested-nav a { font-size: 16px; }
+  .people-grid, .photo-archive .people-grid, .product-grid { grid-template-columns: 1fr; }
+  .explore-card h3 { font-size: 21px; }
+  .explore-card { padding-inline: 12px; }
+  .explore-card p { font-size: 16px; }
+  .intro-strip { grid-template-columns: 1fr; }
+  .strip-item { flex-direction: row; align-items: center; gap: 16px; }
+  .footer-top { grid-template-columns: 1fr; }
+  .photo-label { position: static; display: block; padding: 10px 0; }
+  .photo-credit { text-align: left; }
+  .book-feature { min-width: 0; }
+}
+@media (max-width: 360px) {
+  .brand { width: 166px; flex-basis: 166px; }
+  .menu-toggle { font-size: 16px; }
+  .explore-grid { grid-template-columns: 1fr; }
+  .explore-card:last-child { display: flex; }
+}
+
+/* El logo conserva su tamaño y la navegación pasa a otra fila cuando hace falta. */
+@media (min-width: 901px) and (max-width: 1400px) {
+  .site-header { flex-wrap: wrap; justify-content: flex-start; gap: 12px; }
+  .site-header .brand { width: 390px; flex-basis: 390px; }
+  .primary-nav { width: 100%; justify-content: space-between; gap: 20px; }
+}
+@media (max-width: 900px) {
+  .site-header .brand { width: min(360px, calc(100% - 120px)); flex-basis: auto; }
+}
+@media (max-width: 560px) {
+  .site-header { gap: 10px; }
+  .site-header .brand { width: min(340px, 100%); flex-basis: auto; margin-inline: auto; }
+  .site-header .menu-toggle { margin-left: auto; }
+}
