@@ -49,6 +49,7 @@ body { font-size: 18px; line-height: 1.65; }
   .people-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 900px) {
+  .explore-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .primary-nav a { font-size: 21px; white-space: normal; }
   .menu-toggle { font-size: 17px; }
   .hero-copy h1 { font-size: clamp(44px, 6.5vw, 60px); }
@@ -58,6 +59,14 @@ body { font-size: 18px; line-height: 1.65; }
   .journal-card .media-cover { width: 100%; height: 220px; margin-bottom: 20px; }
 }
 @media (max-width: 560px) {
+  .explore-grid { grid-template-columns: minmax(0, 1fr); }
+  .explore-card, .explore-card:first-child, .explore-card:last-child {
+    display: flex; flex-direction: column; align-items: flex-start;
+    grid-column: auto; min-height: 0; gap: 0; padding: 24px 18px;
+    border-right: 0; border-bottom: 1px solid var(--line);
+  }
+  .explore-card h3, .explore-card:last-child h3 { margin: 12px 0 10px; }
+  .explore-card .arrow, .explore-card:last-child .arrow { margin-top: 16px; padding: 0; }
   .primary-nav.open { grid-template-columns: 1fr; }
   .hero-copy h1 { font-size: clamp(42px, 11.5vw, 60px); }
   .subnav a, .side-nav a, .nested-nav a { font-size: 16px; }
@@ -72,6 +81,8 @@ body { font-size: 18px; line-height: 1.65; }
   .photo-credit { text-align: left; }
   .book-feature { min-width: 0; }
 }
+
+.explore-card > * { max-width: 100%; min-width: 0; overflow-wrap: anywhere; }
 @media (max-width: 360px) {
   .brand { width: 166px; flex-basis: 166px; }
   .menu-toggle { font-size: 16px; }
