@@ -34,6 +34,7 @@ window.NuevaSemilla = {
     hector: {name:'Héctor NÚÑEZ', initials:'HN', role:'Participante'},
     facundo: {name:'Facundo', initials:'F', role:'Participante'},
     kevin: {name:'Kevin', initials:'K', role:'Producción agroecológica', location:'Las Higueras'},
+    paulaGranjaChica: {name:'Paula', initials:'PG', role:'Producción agroecológica · fitomedicina', establishment:'Granja Chica', location:'Las Higueras'},
     santiago: {name:'Santiago', initials:'S', photo:'assets/persona-santiago.png', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Participante · perfil por confirmar'}
   },
   photoArchive: [
@@ -76,7 +77,8 @@ window.NuevaSemilla = {
     {id:'pollitos',name:'Pollitos',producer:'Ivana · 3 Acequias',participant:'tres-acequias',symbol:'05',description:'Pollitos de la producción de Ivana, de 3 Acequias.'},
     {id:'girgolas',name:'Gírgolas',producer:'Carolina',symbol:'06',description:'Gírgolas de la producción de Carolina.'},
     {id:'huevos',name:'Huevos de Campo',producer:'Ivi MACAGNO y Darío COLANERI',symbol:'07',description:'Huevos de producción agroecológica, compartidos por Ivi MACAGNO y Darío COLANERI.',people:['ivanaMandinga','dario']},
-    {id:'maiz-agroecologico',name:'Maíz Agroecológico',producer:'Kevin · Las Higueras',symbol:'08',description:'Maíz agroecológico producido por Kevin, en Las Higueras.',people:['kevin']}
+    {id:'maiz-agroecologico',name:'Maíz Agroecológico',producer:'Kevin · Granja Chica',participant:'granja-chica',symbol:'08',description:'Maíz agroecológico producido por Kevin, en Granja Chica, Las Higueras.',people:['kevin']},
+    {id:'fitomedicina-producto',name:'Fitomedicina',producer:'Paula · Granja Chica y Darío COLANERI',participant:'granja-chica',symbol:'09',description:'Productos de fitomedicina compartidos por Paula, de Granja Chica, y Darío COLANERI.',people:['paulaGranjaChica','dario']}
   ],
   experiences: [
     {id:'merienda-con-cabras',name:'La Pequelette',title:'Merienda con cabras',location:'Calamuchita',participant:'la-pequelette',description:'Un encuentro con La Pequelette y sus cabras para compartir una merienda en el campo.'},
@@ -90,6 +92,7 @@ window.NuevaSemilla = {
     {id:'el-milagro',name:'El Milagro',location:'Coronel Moldes',description:'Establecimiento de la red en Coronel Moldes, compartido por Luci SAGRIPANTI y Laura MEINERO.',people:['luciana','laura']},
     {id:'la-ponderosa',name:'La Ponderosa',location:'Coronel Moldes',description:'Establecimiento de la red en Coronel Moldes, compartido por Gloria POCHETTINO.',people:['gloria']},
     {id:'el-arroyito',name:'El Arroyito',location:'Reducción',description:'Establecimiento de la red en Reducción, compartido por Claudio DEMO. Ofrece lechones a pasto.',people:['demo'],links:[['Lechones a pasto','#gastronomia/venta-directa/lechones']]},
+    {id:'granja-chica',name:'Granja Chica',location:'Las Higueras',description:'Establecimiento de la red en Las Higueras, compartido por Paula y Kevin. Reúne una propuesta de maíz agroecológico y fitomedicina.',people:['paulaGranjaChica','kevin'],links:[['Maíz Agroecológico','#gastronomia/venta-directa/maiz-agroecologico'],['Fitomedicina','#gastronomia/venta-directa/fitomedicina-producto']]},
     {id:'la-pequelette',name:'La Pequelette',location:'Calamuchita',description:'Quesos y encuentros en el campo junto a Magali GUIGON y Héctor NÚÑEZ.',people:['magali','hector'],links:[['Conocer los quesos','#gastronomia/venta-directa/quesos'],['Merienda con cabras','#gastronomia/experiencias/merienda-con-cabras']],externalLinks:[['Instagram de La Pequelette','pequelette']]},
     {id:'la-mandinga',name:'La Mandinga',location:'Almafuerte',description:'Ivi MACAGNO y Guillermo comparten sus experiencias de producción hortícola y bovina. La Mandinga también ofrece pollos pastoriles.',people:['ivanaMandinga','guillermo'],links:[['Pollos Pastoriles','#gastronomia/venta-directa/pollo-de-campo'],['Asesoramiento hortícola','#asesoramiento/horticola']]},
     {id:'los-chanaritos',name:'Los Chanaritos',location:'Villa María',description:'Francisco FONTANETO y Carolina participan desde la experiencia de Los Chanaritos.',people:['carolina','francisco'],links:[['Asesoramiento bovino','#asesoramiento/bovino']],externalLinks:[['Instagram de Los Chanaritos','chanaritos']]},
