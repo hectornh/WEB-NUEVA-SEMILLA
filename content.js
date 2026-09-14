@@ -69,9 +69,9 @@ window.NuevaSemilla = {
   ],
   products: [
     {id:'pollo-de-campo',name:'Pollos Pastoriles',producer:'La Mandinga',participant:'la-mandinga',symbol:'01',description:'Producción avícola pastoril de La Mandinga, en Almafuerte.'},
-    {id:'lechones',name:'Lechones a pasto',producer:'El Alto Lindo',participant:'el-alto-lindo',symbol:'02',description:'Crianza a pasto de El Alto Lindo.'},
+    {id:'lechones',name:'Lechones a pasto',producer:'El Arroyito',participant:'el-arroyito',symbol:'02',description:'Crianza a pasto de El Arroyito.'},
     {id:'quesos',name:'Quesos',producer:'La Pequelette',participant:'la-pequelette',symbol:'03',description:'Quesos de La Pequelette, en el valle de Calamuchita.'},
-    {id:'miel',name:'Miel',producer:'Paula Melegatti',participant:'paula-edgardo',symbol:'04',description:'Miel y saberes apícolas de Paula Melegatti.'},
+    {id:'miel',name:'Miel',producer:'Micaela BEDANO y Paula MELEGATTI',participant:'paula-edgardo',symbol:'04',description:'Miel y saberes apícolas compartidos por Micaela BEDANO y Paula MELEGATTI.',people:['micaela','paula']},
     {id:'pollitos',name:'Pollitos',producer:'Ivana · 3 Acequias',participant:'tres-acequias',symbol:'05',description:'Pollitos de la producción de Ivana, de 3 Acequias.'},
     {id:'girgolas',name:'Gírgolas',producer:'Carolina',symbol:'06',description:'Gírgolas de la producción de Carolina.'},
     {id:'huevos',name:'Huevos de Campo',producer:'Ivi MACAGNO y Darío COLANERI',symbol:'07',description:'Huevos de producción agroecológica, compartidos por Ivi MACAGNO y Darío COLANERI.',people:['ivanaMandinga','dario']}
@@ -87,13 +87,13 @@ window.NuevaSemilla = {
     {id:'el-buen-vivir',name:'El Buen Vivir',location:'Alpa Corral',description:'Establecimiento de la red en Alpa Corral, vinculado a la experiencia de Viviana PEIRÓ.',people:['viviana']},
     {id:'el-milagro',name:'El Milagro',location:'Coronel Moldes',description:'Establecimiento de la red en Coronel Moldes, compartido por Luci SAGRIPANTI y Laura MEINERO.',people:['luciana','laura']},
     {id:'la-ponderosa',name:'La Ponderosa',location:'Coronel Moldes',description:'Establecimiento de la red en Coronel Moldes, compartido por Gloria POCHETTINO.',people:['gloria']},
-    {id:'el-arroyito',name:'El Arroyito',location:'Reducción',description:'Establecimiento de la red en Reducción, compartido por Claudio DEMO.',people:['demo']},
+    {id:'el-arroyito',name:'El Arroyito',location:'Reducción',description:'Establecimiento de la red en Reducción, compartido por Claudio DEMO. Ofrece lechones a pasto.',people:['demo'],links:[['Lechones a pasto','#gastronomia/venta-directa/lechones']]},
     {id:'la-pequelette',name:'La Pequelette',location:'Calamuchita',description:'Quesos y encuentros en el campo junto a Magali GUIGON y Héctor NÚÑEZ.',people:['magali','hector'],links:[['Conocer los quesos','#gastronomia/venta-directa/quesos'],['Merienda con cabras','#gastronomia/experiencias/merienda-con-cabras']],externalLinks:[['Instagram de La Pequelette','pequelette']]},
     {id:'la-mandinga',name:'La Mandinga',location:'Almafuerte',description:'Ivi MACAGNO y Guillermo comparten sus experiencias de producción hortícola y bovina. La Mandinga también ofrece pollos pastoriles.',people:['ivanaMandinga','guillermo'],links:[['Pollos Pastoriles','#gastronomia/venta-directa/pollo-de-campo'],['Asesoramiento hortícola','#asesoramiento/horticola']]},
     {id:'los-chanaritos',name:'Los Chanaritos',location:'Villa María',description:'Francisco FONTANETO y Carolina participan desde la experiencia de Los Chanaritos.',people:['carolina','francisco'],links:[['Asesoramiento bovino','#asesoramiento/bovino']],externalLinks:[['Instagram de Los Chanaritos','chanaritos']]},
     {id:'paula-edgardo',name:'Paula Melegatti & Edgardo',location:null,activities:'Apicultura · Bioconstrucción',description:'Paula comparte sus saberes apícolas y coordina el Programa de Apicultura de la UNRC. Edgardo participa del espacio de bioconstrucción.',people:['paula','edgardo'],links:[['Asesoramiento apícola','#asesoramiento/apicola'],['Bioconstrucción','#asesoramiento/bioconstruccion']]},
     {id:'tres-acequias',name:'Campo de Ivana · 3 Acequias',location:'3 Acequias',description:'Ivana participa del asesoramiento avícola de la red y de la propuesta de venta directa de pollitos.',people:['ivanaAcequias'],links:[['Pollitos','#gastronomia/venta-directa/pollitos'],['Asesoramiento avícola','#asesoramiento/avicola']]},
-    {id:'el-alto-lindo',name:'El Alto Lindo',location:null,activities:'Producción · Encuentros',description:'Lechones criados a pasto y una propuesta de merienda a campo junto a Micaela BEDANO y Facundo.',people:['micaela','facundo'],links:[['Lechones a pasto','#gastronomia/venta-directa/lechones'],['Merienda a campo','#gastronomia/experiencias/merienda-a-campo']],externalLinks:[['Instagram de El Alto Lindo','altoLindo']]}
+    {id:'el-alto-lindo',name:'El Alto Lindo',location:null,activities:'Encuentros',description:'Una propuesta de merienda a campo junto a Micaela BEDANO y Facundo.',people:['micaela','facundo'],links:[['Merienda a campo','#gastronomia/experiencias/merienda-a-campo']],externalLinks:[['Instagram de El Alto Lindo','altoLindo']]}
   ],
   timeline: [
     ['2006','Una invitación que se vuelve red','Comienzan los encuentros entre productores interesados en la agroecología. Claudio Sarmiento y Darío Colaneri forman parte de ese primer recorrido.','https://www.unirioeditora.com.ar/wp-content/uploads/2022/11/978-987-688-504-1.pdf'],
