@@ -3012,6 +3012,26 @@ body {
     line-height: 1.25;
   }
 }
+@media (min-width: 901px) and (max-width: 1600px) {
+  .primary-nav {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    align-items: stretch;
+    gap: 12px;
+    padding-top: 8px;
+  }
+
+  .primary-nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    padding: 10px 8px;
+    white-space: normal;
+    text-align: center;
+    line-height: 1.25;
+  }
+}
 @media (max-width: 560px) {
   .explore-grid { grid-template-columns: minmax(0, 1fr); }
   .page-body, .section { padding-bottom: 40px; }
