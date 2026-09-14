@@ -10,6 +10,21 @@ const ext = (url,label,cls='text-link') => `<a class="${cls}" href="${escape(url
 const internal = (url,label,cls='text-link') => `<a class="${cls}" href="${escape(url)}">${escape(label)} <span aria-hidden="true">→</span></a>`;
 const download = (file,label) => `<a class="text-link" href="${asset(file)}" download>${escape(label)} <span aria-hidden="true">↓</span></a>`;
 const eyebrow = text => `<p class="eyebrow">${escape(text)}</p>`;
+const menuBreaks = {
+  'Qué es la Agroecología':['Qué es la','Agroecología'],
+  'Historia del Grupo':['Historia del','Grupo'],
+  'Emprendimientos & Participantes':['Emprendimientos &','Participantes'],
+  'Contenido Mediático':['Contenido','Mediático'],
+  '20 años Nueva Semilla':['20 años','Nueva Semilla'],
+  'As. Permacultura y Biodinámica':['As. Permacultura y','Biodinámica'],
+  'As. Transición y Regeneración':['As. Transición y','Regeneración'],
+  'Experiencias & AgroTurismo':['Experiencias &','AgroTurismo'],
+  'Tiendas Agroecológicas':['Tiendas','Agroecológicas']
+};
+const menuLabel = value => {
+ const lines=menuBreaks[value];
+ return lines?`<span class="menu-label">${escape(lines[0])}<br>${escape(lines[1])}</span>`:`<span class="menu-label">${escape(value)}</span>`;
+};
 const names = {'asesoramiento':'Asesoramiento Profesional','propuestas':'Propuestas Pedagógicas','gastronomia':'Propuestas de Productos y Agroturismo','mapa':'Mapa','quienes-somos':'Quiénes Somos'};
 const intros = {
   asesoramiento:['Saberes en común','El conocimiento nace de la experiencia y crece cuando se comparte. Encontrá el área que acompaña tu proyecto.'],
@@ -23,7 +38,7 @@ function intro(section) {
   return `<div class="wrap page-intro"><nav class="breadcrumb" aria-label="Ubicación"><a href="#inicio">Inicio</a><span aria-hidden="true">/</span><span>${names[section]}</span></nav><div class="page-title-row"><div>${eyebrow(tag)}<h1>${names[section]}</h1></div><p>${description}</p></div></div>`;
 }
 function subnav(items,base,active,cls='subnav',label='Secciones') {
-  return `<nav class="${cls}" aria-label="${escape(label)}">${items.map(item=>`<a href="#${base}/${item.id}" ${item.id===active?'aria-current="page"':''}>${escape(item.name)}${cls==='side-nav'?'<span aria-hidden="true">↗</span>':''}</a>`).join('')}</nav>`;
+  return `<nav class="${cls}" aria-label="${escape(label)}">${items.map(item=>`<a href="#${base}/${item.id}" ${item.id===active?'aria-current="page"':''}>${menuLabel(item.name)}${cls==='side-nav'?'<span aria-hidden="true">↗</span>':''}</a>`).join('')}</nav>`;
 }
 function personDetails(p) {
  return `<p>${escape(p.role)}</p>${placeDetails(p)}`;

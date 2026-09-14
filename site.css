@@ -2963,6 +2963,9 @@ body {
 .profile-facts dd { display: inline; margin: 0 0 0 .3em; }
 .person .profile-facts { margin: 8px 0 0; }
 .primary-nav, .actions, .subnav, .nested-nav { min-width: 0; }
+.menu-label { display: inline-block; line-height: 1.25; }
+.subnav a, .nested-nav a { white-space: normal; text-align: center; }
+.side-nav a { white-space: normal; }
 .actions > a { max-width: 100%; overflow-wrap: anywhere; }
 .filter-button, .menu-toggle, .subnav a, .nested-nav a, .side-nav a { min-height: 44px; }
 .explore-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); }
