@@ -78,7 +78,7 @@ window.NuevaSemilla = {
   ],
   experiences: [
     {id:'merienda-con-cabras',name:'La Pequelette',title:'Merienda con cabras',location:'Calamuchita',participant:'la-pequelette',description:'Un encuentro con La Pequelette y sus cabras para compartir una merienda en el campo.'},
-    {id:'merienda-a-campo',name:'El Alto Lindo',title:'Merienda a campo',location:null,participant:'el-alto-lindo',description:'Una invitación a compartir la mesa y conocer la vida a campo en El Alto Lindo.'}
+    {id:'merienda-a-campo',name:'El Alto Lindo',title:'Visita Guiada Reserva Serrana',location:null,participant:'el-alto-lindo',description:'Una invitación a conocer la vida a campo y el entorno natural de El Alto Lindo.'}
   ],
   about: [
     {id:'agroecologia',name:'Qué es la Agroecología'}, {id:'historia',name:'Historia del Grupo'}, {id:'participantes',name:'Emprendimientos & Participantes'}, {id:'contenido-mediatico',name:'Contenido Mediático'}, {id:'20-anos',name:'20 años Nueva Semilla'}, {id:'bibliografia',name:'Bibliografía'}, {id:'contacto',name:'Contacto'}
@@ -93,7 +93,7 @@ window.NuevaSemilla = {
     {id:'los-chanaritos',name:'Los Chanaritos',location:'Villa María',description:'Francisco FONTANETO y Carolina participan desde la experiencia de Los Chanaritos.',people:['carolina','francisco'],links:[['Asesoramiento bovino','#asesoramiento/bovino']],externalLinks:[['Instagram de Los Chanaritos','chanaritos']]},
     {id:'paula-edgardo',name:'Paula Melegatti & Edgardo',location:null,activities:'Apicultura · Bioconstrucción',description:'Paula comparte sus saberes apícolas y coordina el Programa de Apicultura de la UNRC. Edgardo participa del espacio de bioconstrucción.',people:['paula','edgardo'],links:[['Asesoramiento apícola','#asesoramiento/apicola'],['Bioconstrucción','#asesoramiento/bioconstruccion']]},
     {id:'tres-acequias',name:'Campo de Ivana · 3 Acequias',location:'3 Acequias',description:'Ivana participa del asesoramiento avícola de la red y de la propuesta de venta directa de pollitos.',people:['ivanaAcequias'],links:[['Pollitos','#gastronomia/venta-directa/pollitos'],['Asesoramiento avícola','#asesoramiento/avicola']]},
-    {id:'el-alto-lindo',name:'El Alto Lindo',location:null,activities:'Encuentros',description:'Una propuesta de merienda a campo junto a Micaela BEDANO y Facundo.',people:['micaela','facundo'],links:[['Merienda a campo','#gastronomia/experiencias/merienda-a-campo']],externalLinks:[['Instagram de El Alto Lindo','altoLindo']]}
+    {id:'el-alto-lindo',name:'El Alto Lindo',location:null,activities:'Visitas guiadas',description:'Una visita guiada por la reserva serrana junto a Micaela BEDANO y Facundo.',people:['micaela','facundo'],links:[['Visita Guiada Reserva Serrana','#gastronomia/experiencias/merienda-a-campo']],externalLinks:[['Instagram de El Alto Lindo','altoLindo']]}
   ],
   timeline: [
     ['2006','Una invitación que se vuelve red','Comienzan los encuentros entre productores interesados en la agroecología. Claudio Sarmiento y Darío Colaneri forman parte de ese primer recorrido.','https://www.unirioeditora.com.ar/wp-content/uploads/2022/11/978-987-688-504-1.pdf'],
