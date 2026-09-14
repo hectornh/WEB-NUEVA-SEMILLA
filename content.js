@@ -33,6 +33,7 @@ window.NuevaSemilla = {
     gloria: {name:'Gloria POCHETTINO', initials:'GP', photo:'assets/persona-gloria.png', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Participante'},
     hector: {name:'Héctor NÚÑEZ', initials:'HN', role:'Participante'},
     facundo: {name:'Facundo', initials:'F', role:'Participante'},
+    kevin: {name:'Kevin', initials:'K', role:'Producción agroecológica', location:'Las Higueras'},
     santiago: {name:'Santiago', initials:'S', photo:'assets/persona-santiago.png', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Participante · perfil por confirmar'}
   },
   photoArchive: [
@@ -74,7 +75,8 @@ window.NuevaSemilla = {
     {id:'miel',name:'Miel',producer:'Micaela BEDANO y Paula MELEGATTI',participant:'paula-edgardo',symbol:'04',description:'Miel y saberes apícolas compartidos por Micaela BEDANO y Paula MELEGATTI.',people:['micaela','paula']},
     {id:'pollitos',name:'Pollitos',producer:'Ivana · 3 Acequias',participant:'tres-acequias',symbol:'05',description:'Pollitos de la producción de Ivana, de 3 Acequias.'},
     {id:'girgolas',name:'Gírgolas',producer:'Carolina',symbol:'06',description:'Gírgolas de la producción de Carolina.'},
-    {id:'huevos',name:'Huevos de Campo',producer:'Ivi MACAGNO y Darío COLANERI',symbol:'07',description:'Huevos de producción agroecológica, compartidos por Ivi MACAGNO y Darío COLANERI.',people:['ivanaMandinga','dario']}
+    {id:'huevos',name:'Huevos de Campo',producer:'Ivi MACAGNO y Darío COLANERI',symbol:'07',description:'Huevos de producción agroecológica, compartidos por Ivi MACAGNO y Darío COLANERI.',people:['ivanaMandinga','dario']},
+    {id:'maiz-agroecologico',name:'Maíz Agroecológico',producer:'Kevin · Las Higueras',symbol:'08',description:'Maíz agroecológico producido por Kevin, en Las Higueras.',people:['kevin']}
   ],
   experiences: [
     {id:'merienda-con-cabras',name:'La Pequelette',title:'Merienda con cabras',location:'Calamuchita',participant:'la-pequelette',description:'Un encuentro con La Pequelette y sus cabras para compartir una merienda en el campo.'},
