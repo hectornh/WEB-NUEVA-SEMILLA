@@ -1,4 +1,6 @@
 /* Escala de lectura común para portada, navegación y fichas. */
+.journal-card .real-book-cover { display: flex; justify-content: center; align-items: center; background: #e7eadb; }
+.real-book-cover img { width: 100%; height: 100%; object-fit: contain; }
 body { font-size: 18px; line-height: 1.65; }
 .site-header { gap: 32px; }
 .site-header .brand { width: 420px; flex: 0 0 420px; max-width: 100%; }

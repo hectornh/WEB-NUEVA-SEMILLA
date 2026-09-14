@@ -5,7 +5,7 @@ Sitio estático navegable desde `index.html`. Conserva los documentos y el video
 ## Organización
 
 - `index.html`: estructura compartida, cabecera, cinco categorías, pie y metadatos.
-- `redesign.css`: diseño adaptable, tipografía, navegación, estilos de todas las vistas.
+- `site.css`: única hoja activa; diseño adaptable, tipografía, navegación y encuadres. Los tamaños comunes se controlan mediante las variables `--text-*` del bloque `:root`.
 - `content.js`: personas, especialidades, productos, emprendimientos, enlaces, cronología y bibliografía.
 - `script.js`: navegación por fragmentos, vistas, filtros del archivo y menú móvil.
 - `assets/`: logo nuevo, video, fotogramas de archivo, foto de Luciana, PDFs, MHT y dossier de fuentes.
@@ -18,7 +18,7 @@ Los enlaces de las secciones se pueden compartir con su fragmento: `#asesoramien
 
 Los nombres de los emprendimientos y la asignación de referentes siguen la última indicación de Héctor. Ver `../Pendientes-Nueva-Semilla.md` para los retratos, las ambigüedades de nombres y los datos faltantes. Se distingue El Milagro de La Milagrosa hasta contar con confirmación.
 
-Las fotografías de la portada, comunidad y propuestas son fotogramas del MP4 aportado. La fotografía de Luciana fue extraída de la copia MHT del artículo de Bichos de Campo del 9/11/2025. Se identifica la procedencia en la interfaz. Los recuadros tipográficos del libro son elementos editoriales, no una reproducción de su tapa.
+Las fotografías de portada, comunidad y propuestas conservan la proporción 16:9 del MP4 aportado. Los retratos tienen puntos focales en `site.css`, mediante `--portrait-focus`. La portada del libro en el acceso a Bibliografía es la imagen aportada por Héctor y se muestra completa. `redesign.css` y `typography.css` se conservan como antecedentes; no se cargan ni deben editarse para cambios nuevos.
 
 La Feria de Alpa Corral enlaza a información municipal de la feria; no se infieren horarios vigentes. Workaway enlaza a la plataforma general y no implica un perfil del grupo. Slow Food Farms no atribuye una membresía o certificación a ningún campo.
 
