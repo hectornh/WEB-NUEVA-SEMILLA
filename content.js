@@ -14,23 +14,25 @@ window.NuevaSemilla = {
   /* Permanecen vacíos hasta disponer de los canales oficiales y el servidor. */
   contact: { whatsapp: null, email: null, inquiryEndpoint: null, bankTransfer: null },
   people: {
-    luciana: {name:'Luciana Sagripanti', initials:'LS', photo:'assets/luciana-sagripanti.jpeg', credit:'Fotografía: Bichos de Campo, archivo aportado.', role:'Agroecología · producción bovina'},
-    demo: {name:'Claudio Demo', initials:'CD', role:'Agroecología · producción porcina'},
-    dario: {name:'Darío Colaneri', initials:'DC', photo:'assets/persona-dario.png', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Agroecología', location:'Alpa Corral'},
-    sarmiento: {name:'Claudio Sarmiento', initials:'CS', role:'Agroecología · proyecto ALdeA'},
-    ivanaMandinga: {name:'Ivi Macagno', initials:'IM', photo:'assets/persona-ivana-mandinga.jpeg', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Horticultura', establishment:'La Mandinga', location:'Almafuerte'},
-    laura: {name:'Laura Meinero', initials:'LM', photo:'assets/persona-laura-meinero.jpeg', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Producción bovina', establishment:'La Milagrosa', location:'Coronel Moldes'},
+    luciana: {name:'Luci SAGRIPANTI', initials:'LS', photo:'assets/luciana-sagripanti.jpeg', credit:'Fotografía: Bichos de Campo, archivo aportado.', role:'Agroecología · producción bovina'},
+    demo: {name:'Claudio DEMO', initials:'CD', role:'Agroecología · producción porcina'},
+    dario: {name:'Darío COLANERI', initials:'DC', photo:'assets/persona-dario.png', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Agroecología', location:'Alpa Corral'},
+    sarmiento: {name:'Claudio SARMIENTO', initials:'CS', role:'Agroecología · proyecto ALdeA'},
+    ivanaMandinga: {name:'Ivi MACAGNO', initials:'IM', photo:'assets/persona-ivana-mandinga.jpeg', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Horticultura', establishment:'La Mandinga', location:'Almafuerte'},
+    laura: {name:'Laura MEINERO', initials:'LM', photo:'assets/persona-laura-meinero.jpeg', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Producción bovina', establishment:'La Milagrosa', location:'Coronel Moldes'},
     guillermo: {name:'Guillermo', initials:'GM', photo:'assets/persona-guillermo.png', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Producción bovina', establishment:'La Mandinga', location:'Almafuerte'},
-    francisco: {name:'Francisco', initials:'FC', photo:'assets/persona-francisco.jpg', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Producción bovina', establishment:'Los Chañaritos', location:'Villa María'},
-    magali: {name:'Magali Guigon', initials:'MG', role:'Producción caprina'},
+    francisco: {name:'Francisco FONTANETO', initials:'FC', photo:'assets/persona-francisco.jpg', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Producción bovina', establishment:'Los Chanaritos', location:'Villa María'},
+    magali: {name:'Magali GUIGON', initials:'MG', role:'Producción caprina'},
     ivanaAcequias: {name:'Ivana', initials:'IA', role:'Avicultura · pollitos', location:'3 Acequias'},
-    paula: {name:'Paula Melegatti', initials:'PM', photo:'assets/persona-paula-melegatti.png', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Apicultura · programa de la UNRC'},
-    micaela: {name:'Micaela Bedano', initials:'MB', photo:'assets/persona-micaela.jpeg', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Apicultura'},
+    paula: {name:'Paula MELEGATTI', initials:'PM', photo:'assets/persona-paula-melegatti.png', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Apicultura · programa de la UNRC'},
+    micaela: {name:'Micaela BEDANO', initials:'MB', photo:'assets/persona-micaela.jpeg', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Apicultura'},
     carolina: {name:'Carolina', initials:'C', photo:'assets/persona-carolina.png', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Fungicultura · gírgolas'},
     edgardo: {name:'Edgardo', initials:'E', role:'Bioconstrucción'},
-    viviana: {name:'Viviana Peiró', initials:'VP', photo:'assets/persona-viviana.png', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Participante', establishment:'El Buen Vivir', location:'Alpa Corral'},
+    viviana: {name:'Viviana PEIRÓ', initials:'VP', photo:'assets/persona-viviana.png', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Participante', establishment:'El Buen Vivir', location:'Alpa Corral'},
     german: {name:'German', initials:'G', photo:'assets/persona-german.png', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Participante · perfil por confirmar'},
-    gloria: {name:'Gloria', initials:'G', photo:'assets/persona-gloria.png', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Participante · perfil por confirmar'},
+    gloria: {name:'Gloria POCHETTINO', initials:'GP', photo:'assets/persona-gloria.png', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Participante'},
+    hector: {name:'Héctor NÚÑEZ', initials:'HN', role:'Participante'},
+    facundo: {name:'Facundo', initials:'F', role:'Participante'},
     santiago: {name:'Santiago', initials:'S', photo:'assets/persona-santiago.png', credit:'Fotografía: archivo de participantes de Nueva Semilla.', role:'Participante · perfil por confirmar'}
   },
   photoArchive: [
@@ -43,14 +45,14 @@ window.NuevaSemilla = {
   advice: [
     {id:'agroecologico',name:'As. Agroecológico',title:'Pensar el campo como un todo.',description:'Diseño, transición y/o regeneración de sistemas productivos en armonía con la tierra.',people:['luciana','demo','dario','sarmiento'],topics:['Diseño de sistemas','Diversidad productiva','Aprendizaje entre productores']},
     {id:'horticola',name:'As. Hortícola',title:'Saberes que crecen en la huerta.',description:'Un espacio de intercambio sobre horticultura y producción de alimentos, desde la experiencia de La Mandinga.',people:['ivanaMandinga'],topics:['Huerta','Suelo vivo','Alimentos de cercanía']},
-    {id:'bovino',name:'As. Bovino',title:'Ganadería en diálogo con el territorio.',description:'Experiencias de producción bovina compartidas por Laura Meinero, de La Milagrosa, Coronel Moldes; Guillermo, de La Mandinga; y Francisco, de Los Chañaritos.',people:['laura','guillermo','francisco'],topics:['Producción bovina','Pasturas','Sistemas integrados']},
-    {id:'caprino',name:'As. Caprino',title:'Acompañar la producción caprina.',description:'Saberes y experiencias sobre la crianza de cabras junto a Magali Guigon.',people:['magali'],topics:['Cabras','Manejo','Vida rural']},
+    {id:'bovino',name:'As. Bovino',title:'Ganadería en diálogo con el territorio.',description:'Experiencias de producción bovina compartidas por Laura MEINERO, de La Milagrosa, Coronel Moldes; Guillermo, de La Mandinga; y Francisco FONTANETO, de Los Chanaritos.',people:['laura','guillermo','francisco'],topics:['Producción bovina','Pasturas','Sistemas integrados']},
+    {id:'caprino',name:'As. Caprino',title:'Acompañar la producción caprina.',description:'Saberes y experiencias sobre la crianza de cabras junto a Magali GUIGON.',people:['magali'],topics:['Cabras','Manejo','Vida rural']},
     {id:'ovino',name:'As. Ovino',title:'La cría ovina en el sistema productivo.',description:'Espacio de asesoramiento sobre producción ovina. El equipo referente y el alcance de las consultas se incorporarán próximamente.',people:[],topics:['Ovinos','Producción integrada']},
     {id:'porcino',name:'As. Porcino',title:'Compartir experiencias de crianza.',description:'Producción porcina y aprendizajes de campo junto a Claudio Demo.',people:['demo'],topics:['Porcinos','Diversificación','Manejo']},
     {id:'avicola',name:'As. Avícola',title:'La avicultura, de cerca.',description:'Un espacio para conocer la experiencia de Ivana, de 3 Acequias, y compartir saberes sobre la crianza de aves.',people:['ivanaAcequias'],topics:['Aves','Crianza','Pollitos']},
     {id:'apicola',name:'As. Apícola',title:'Cuidar las abejas, cuidar la vida.',description:'Apicultura junto a Paula Melegatti y Micaela Bedano. Conocé también el programa de apicultura que Paula coordina en la UNRC.',people:['paula','micaela'],topics:['Abejas','Miel','Formación'],link:'apicultura',linkLabel:'Programa de Apicultura · UNRC'},
     {id:'fungicultura',name:'As. Fungicultura',title:'Otro mundo de posibilidades.',description:'Saberes sobre el cultivo de hongos y la producción de gírgolas junto a Carolina.',people:['carolina'],topics:['Hongos','Gírgolas','Cultivo']},
-    {id:'fitomedicina',name:'As. Fitomedicina',title:'Cuidar los cultivos desde una mirada integral.',description:'Intercambio de saberes sobre fitomedicina junto a Ivi Macagno y Darío Colaneri.',people:['ivanaMandinga','dario'],topics:['Fitomedicina','Cuidado de cultivos','Agroecología']},
+    {id:'fitomedicina',name:'As. Fitomedicina',title:'Cuidar los cultivos desde una mirada integral.',description:'Intercambio de saberes sobre fitomedicina junto a Ivi MACAGNO y Darío COLANERI.',people:['ivanaMandinga','dario'],topics:['Fitomedicina','Cuidado de cultivos','Agroecología']},
     {id:'permacultura',name:'As. Permacultura y Biodinámica',title:'Habitar y producir con una mirada integral.',description:'Un espacio para las prácticas de permacultura y biodinámica. Referentes y modalidades de acompañamiento por incorporar.',people:[],topics:['Permacultura','Biodinámica','Diseño integral']},
     {id:'transicion',name:'As. Transición y Regeneración',title:'Cada transición tiene su camino.',description:'Una mirada sobre los procesos de cambio y regeneración de sistemas productivos. Referentes y propuestas específicas por incorporar.',people:[],topics:['Transición','Regeneración','Territorio']},
     {id:'veterinario',name:'As. Veterinario',title:'Salud animal y cuidado cotidiano.',description:'Espacio de asesoramiento veterinario de la red. Profesionales, disponibilidad y modalidades de atención por incorporar.',people:[],topics:['Salud animal','Cuidado','Producción']},
@@ -66,13 +68,13 @@ window.NuevaSemilla = {
     {id:'tiendas',name:'Tiendas Agroecológicas'}, {id:'ferias',name:'Ferias'}, {id:'venta-directa',name:'Venta Directa'}, {id:'experiencias',name:'Experiencias & AgroTurismo'}, {id:'slow-food',name:'Slow Food Farms'}
   ],
   products: [
-    {id:'pollo-de-campo',name:'Pollo de campo',producer:'La Mandinga',participant:'la-mandinga',symbol:'01',description:'Producción avícola de La Mandinga, en Almafuerte.'},
+    {id:'pollo-de-campo',name:'Pollos Pastoriles',producer:'La Mandinga',participant:'la-mandinga',symbol:'01',description:'Producción avícola pastoril de La Mandinga, en Almafuerte.'},
     {id:'lechones',name:'Lechones a pasto',producer:'El Alto Lindo',participant:'el-alto-lindo',symbol:'02',description:'Crianza a pasto de El Alto Lindo.'},
     {id:'quesos',name:'Quesos',producer:'La Pequelette',participant:'la-pequelette',symbol:'03',description:'Quesos de La Pequelette, en el valle de Calamuchita.'},
     {id:'miel',name:'Miel',producer:'Paula Melegatti',participant:'paula-edgardo',symbol:'04',description:'Miel y saberes apícolas de Paula Melegatti.'},
     {id:'pollitos',name:'Pollitos',producer:'Ivana · 3 Acequias',participant:'tres-acequias',symbol:'05',description:'Pollitos de la producción de Ivana, de 3 Acequias.'},
     {id:'girgolas',name:'Gírgolas',producer:'Carolina',symbol:'06',description:'Gírgolas de la producción de Carolina.'},
-    {id:'huevos',name:'Huevos',producer:'Ivi Macagno y Darío Colaneri',symbol:'07',description:'Huevos de producción agroecológica, compartidos por Ivi Macagno y Darío Colaneri.',people:['ivanaMandinga','dario']}
+    {id:'huevos',name:'Huevos de Campo',producer:'Ivi MACAGNO y Darío COLANERI',symbol:'07',description:'Huevos de producción agroecológica, compartidos por Ivi MACAGNO y Darío COLANERI.',people:['ivanaMandinga','dario']}
   ],
   experiences: [
     {id:'merienda-con-cabras',name:'La Pequelette',title:'Merienda con cabras',location:'Calamuchita',participant:'la-pequelette',description:'Un encuentro con La Pequelette y sus cabras para compartir una merienda en el campo.'},
@@ -82,15 +84,16 @@ window.NuevaSemilla = {
     {id:'agroecologia',name:'Qué es la Agroecología'}, {id:'historia',name:'Historia del Grupo'}, {id:'participantes',name:'Emprendimientos & Participantes'}, {id:'contenido-mediatico',name:'Contenido Mediático'}, {id:'20-anos',name:'20 años Nueva Semilla'}, {id:'bibliografia',name:'Bibliografía'}, {id:'contacto',name:'Contacto'}
   ],
   participants: [
-    {id:'el-milagro',name:'El Milagro',location:'Coronel Moldes',description:'Emprendimiento de la red en Coronel Moldes. Su historia, actividades y presentación se completarán con el material del grupo.'},
-    {id:'la-ponderos',name:'La Ponderos',location:'Coronel Moldes',description:'Emprendimiento de la red en Coronel Moldes. Un espacio para conocer a sus participantes y su recorrido productivo.'},
-    {id:'el-arroyito',name:'El Arroyito',location:'Reducción',description:'Una de las experiencias de la red en Reducción. Próximamente compartiremos su historia y sus actividades.'},
-    {id:'la-pequelette',name:'La Pequelette',location:'Calamuchita',description:'Quesos y encuentros en el campo. La Pequelette reúne la producción de alimentos y la experiencia de compartir una merienda con cabras.',links:[['Conocer los quesos','#gastronomia/venta-directa/quesos'],['Merienda con cabras','#gastronomia/experiencias/merienda-con-cabras']],externalLinks:[['Instagram de La Pequelette','pequelette']]},
-    {id:'la-mandinga',name:'La Mandinga',location:'Almafuerte',description:'Ivi Macagno y Guillermo comparten sus experiencias de producción hortícola y bovina. La Mandinga también ofrece pollo de campo.',people:['ivanaMandinga','guillermo'],links:[['Pollo de campo','#gastronomia/venta-directa/pollo-de-campo'],['Asesoramiento hortícola','#asesoramiento/horticola']]},
-    {id:'los-chanaritos',name:'Los Chañaritos',location:'Villa María',description:'Francisco participa del espacio de asesoramiento bovino desde la experiencia de Los Chañaritos.',people:['francisco'],links:[['Asesoramiento bovino','#asesoramiento/bovino']],externalLinks:[['Instagram de Los Chañaritos','chanaritos']]},
+    {id:'el-buen-vivir',name:'El Buen Vivir',location:'Alpa Corral',description:'Establecimiento de la red en Alpa Corral, vinculado a la experiencia de Viviana PEIRÓ.',people:['viviana']},
+    {id:'el-milagro',name:'El Milagro',location:'Coronel Moldes',description:'Establecimiento de la red en Coronel Moldes, compartido por Luci SAGRIPANTI y Laura MEINERO.',people:['luciana','laura']},
+    {id:'la-ponderosa',name:'La Ponderosa',location:'Coronel Moldes',description:'Establecimiento de la red en Coronel Moldes, compartido por Gloria POCHETTINO.',people:['gloria']},
+    {id:'el-arroyito',name:'El Arroyito',location:'Reducción',description:'Establecimiento de la red en Reducción, compartido por Claudio DEMO.',people:['demo']},
+    {id:'la-pequelette',name:'La Pequelette',location:'Calamuchita',description:'Quesos y encuentros en el campo junto a Magali GUIGON y Héctor NÚÑEZ.',people:['magali','hector'],links:[['Conocer los quesos','#gastronomia/venta-directa/quesos'],['Merienda con cabras','#gastronomia/experiencias/merienda-con-cabras']],externalLinks:[['Instagram de La Pequelette','pequelette']]},
+    {id:'la-mandinga',name:'La Mandinga',location:'Almafuerte',description:'Ivi MACAGNO y Guillermo comparten sus experiencias de producción hortícola y bovina. La Mandinga también ofrece pollos pastoriles.',people:['ivanaMandinga','guillermo'],links:[['Pollos Pastoriles','#gastronomia/venta-directa/pollo-de-campo'],['Asesoramiento hortícola','#asesoramiento/horticola']]},
+    {id:'los-chanaritos',name:'Los Chanaritos',location:'Villa María',description:'Francisco FONTANETO y Carolina participan desde la experiencia de Los Chanaritos.',people:['carolina','francisco'],links:[['Asesoramiento bovino','#asesoramiento/bovino']],externalLinks:[['Instagram de Los Chanaritos','chanaritos']]},
     {id:'paula-edgardo',name:'Paula Melegatti & Edgardo',location:null,activities:'Apicultura · Bioconstrucción',description:'Paula comparte sus saberes apícolas y coordina el Programa de Apicultura de la UNRC. Edgardo participa del espacio de bioconstrucción.',people:['paula','edgardo'],links:[['Asesoramiento apícola','#asesoramiento/apicola'],['Bioconstrucción','#asesoramiento/bioconstruccion']]},
     {id:'tres-acequias',name:'Campo de Ivana · 3 Acequias',location:'3 Acequias',description:'Ivana participa del asesoramiento avícola de la red y de la propuesta de venta directa de pollitos.',people:['ivanaAcequias'],links:[['Pollitos','#gastronomia/venta-directa/pollitos'],['Asesoramiento avícola','#asesoramiento/avicola']]},
-    {id:'el-alto-lindo',name:'El Alto Lindo',location:null,activities:'Producción · Encuentros',description:'Lechones criados a pasto y una propuesta de merienda a campo para acercarse a la experiencia de El Alto Lindo.',links:[['Lechones a pasto','#gastronomia/venta-directa/lechones'],['Merienda a campo','#gastronomia/experiencias/merienda-a-campo']],externalLinks:[['Instagram de El Alto Lindo','altoLindo']]}
+    {id:'el-alto-lindo',name:'El Alto Lindo',location:null,activities:'Producción · Encuentros',description:'Lechones criados a pasto y una propuesta de merienda a campo junto a Micaela BEDANO y Facundo.',people:['micaela','facundo'],links:[['Lechones a pasto','#gastronomia/venta-directa/lechones'],['Merienda a campo','#gastronomia/experiencias/merienda-a-campo']],externalLinks:[['Instagram de El Alto Lindo','altoLindo']]}
   ],
   timeline: [
     ['2006','Una invitación que se vuelve red','Comienzan los encuentros entre productores interesados en la agroecología. Claudio Sarmiento y Darío Colaneri forman parte de ese primer recorrido.','https://www.unirioeditora.com.ar/wp-content/uploads/2022/11/978-987-688-504-1.pdf'],
