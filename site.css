@@ -788,6 +788,47 @@ main:focus {
   font-size:12px;
 }
 
+.volunteer-projects {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.volunteer-projects h3 {
+  margin: 0 0 18px;
+  font-size: var(--text-compact);
+  line-height: 1.45;
+}
+
+.volunteer-project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 14px;
+}
+
+.volunteer-project {
+  padding: 18px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.26);
+}
+
+.volunteer-project h4 {
+  margin: 0 0 12px;
+  font-size: var(--text-control);
+}
+
+.volunteer-project .button {
+  padding: 11px 15px;
+  min-height: 44px;
+}
+
+.volunteer-project p {
+  margin: 16px 0 0;
+  font-size: var(--text-compact);
+}
+
+.volunteer-project p span { color: var(--muted); }
+
 .section-title {
   font:40px/1.15 var(--serif);
   margin:15px 0;
@@ -2953,6 +2994,22 @@ body {
 
   .primary-nav a {
     font-size: clamp(20px, 1.65vw, 23px);
+  }
+}
+@media (min-width: 901px) and (max-width: 1200px) {
+  .primary-nav {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 4px;
+  }
+
+  .primary-nav a {
+    min-width: 0;
+    padding-inline: 6px;
+    white-space: normal;
+    text-align: center;
+    font-size: clamp(16px, 1.8vw, 20px);
+    line-height: 1.25;
   }
 }
 @media (max-width: 560px) {
