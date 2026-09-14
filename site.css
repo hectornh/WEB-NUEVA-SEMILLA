@@ -2916,6 +2916,11 @@ body {
 }
 .person .portrait, .photo-archive .person .portrait { width: 90px; height: 108px; }
 .person { align-items: center; }
+.profile-facts { margin: 14px 0; font-size: var(--text-compact); }
+.profile-facts > div { margin-top: 6px; overflow-wrap: anywhere; }
+.profile-facts dt { display: inline; font-weight: 600; }
+.profile-facts dd { display: inline; margin: 0 0 0 .3em; }
+.person .profile-facts { margin: 8px 0 0; }
 .primary-nav, .actions, .subnav, .nested-nav { min-width: 0; }
 .actions > a { max-width: 100%; overflow-wrap: anywhere; }
 .filter-button, .menu-toggle, .subnav a, .nested-nav a, .side-nav a { min-height: 44px; }
@@ -2932,6 +2937,23 @@ body {
   .hero-copy .lead { max-width: 65ch; }
   .proposal-art { height: auto; min-height: 0; }
   .primary-nav.open { grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); }
+}
+@media (min-width: 901px) and (max-width: 1600px) {
+  .site-header {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .primary-nav {
+    width: 100%;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .primary-nav a {
+    font-size: clamp(20px, 1.65vw, 23px);
+  }
 }
 @media (max-width: 560px) {
   .explore-grid { grid-template-columns: minmax(0, 1fr); }
